@@ -8,6 +8,3 @@ jobs:
       run: echo "deploying on QA"
      - name: Bye on QA
       run: echo "deployment done on QA"
-
-  
-  
