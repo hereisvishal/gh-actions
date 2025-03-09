@@ -1,10 +1,10 @@
 name: My First Action
 on: workflow_dispatch
 jobs:
-  1a_deploy-on-qa:
+  deploy-on-qa:
    runs-on: ubuntu-latest
    steps:
      - name: Print on QA
-      run: echo "deploying on QA"
+       run: echo "deploying on QA"
      - name: Bye on QA
-      run: echo "deployment done on QA"
+       run: echo "deployment done on QA"
